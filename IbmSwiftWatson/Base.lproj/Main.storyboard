@@ -34,6 +34,9 @@
                                         <rect key="frame" x="87" y="60" width="126" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <state key="normal" title="Analiza el Texto"/>
+                                        <connections>
+                                            <action selector="checkButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yrI-uM-zRR"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="goK-Zx-atJ">
                                         <rect key="frame" x="129" y="124" width="42" height="20.5"/>
@@ -51,6 +54,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="textField" destination="BnB-vI-piC" id="tBI-VV-POH"/>
+                        <outlet property="textStatusLabel" destination="goK-Zx-atJ" id="MIw-Br-SAc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
